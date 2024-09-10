@@ -7,7 +7,7 @@
 
 |활용 LLM|finetuning 여부|Document Loader|RAG 구조|F1-Score 성능|
 |--------|--------------|---------------|--------|-------------|
-|Gemma|Train Q&A QLoRA finetune|pymupdf4llm|MultiVectorDB, Reranker|0.6748|
+|Gemma|Train Q&A QLoRA finetune|pymupdf4llm|MultiVectorDB, Reranker|0.6748 (최종 순위 32위)|
 |Gemma|X|pymupdf4llm|MultiVectorDB, Reranker|0.66795|
 |Gemma|X|PDFPlumberLoader|MultiVectorDB, Reranker|0.6317|
 |Gemma|X|pymupdf4llm|MultiVectorDB,Ensemble Retriever(BM25Retriever, VectorStore-Backend Retriever)|0.6286|
