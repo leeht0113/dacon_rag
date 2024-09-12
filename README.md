@@ -7,10 +7,10 @@
 
 |활용 LLM|finetuning 여부|Document Loader|RAG 구조|F1-Score 성능|
 |--------|--------------|---------------|--------|-------------|
-|Gemma|Train data의 Q&A를 QLoRA로 finetune|pymupdf4llm|MultiVectorDB, Reranker|0.6748 (최종 순위 32위)|
-|Gemma|X|pymupdf4llm|MultiVectorDB, Reranker|0.66795|
-|Gemma|X|PDFPlumberLoader|MultiVectorDB, Reranker|0.6317|
-|Gemma|X|pymupdf4llm|MultiVectorDB,Ensemble Retriever(BM25Retriever, VectorStore-Backend Retriever)|0.6286|
-|Gemma|X|pymupdf4llm|MultiVectorDB,VectorStore-Backend Retriever|0.6286|
-|Gemma|Train data를 RAG Prompt 구조로 QLoRA finetune|pymupdf4llm|MultiVectorDB, Reranker|0.5941|
+|rtzr/ko-gemma-2-9b-it|Train data의 Q&A를 QLoRA로 finetune|pymupdf4llm|MultiVectorDB, Reranker|0.6748 (최종 순위 32위)|
+|rtzr/ko-gemma-2-9b-it|X|pymupdf4llm|MultiVectorDB, Reranker|0.66795|
+|rtzr/ko-gemma-2-9b-it|X|PDFPlumberLoader|MultiVectorDB, Reranker|0.6317|
+|rtzr/ko-gemma-2-9b-it|X|pymupdf4llm|MultiVectorDB,Ensemble Retriever(BM25Retriever, VectorStore-Backend Retriever)|0.6286|
+|rtzr/ko-gemma-2-9b-it|X|pymupdf4llm|MultiVectorDB,VectorStore-Backend Retriever|0.6286|
+|rtzr/ko-gemma-2-9b-it|Train data를 RAG Prompt 구조로 QLoRA finetune|pymupdf4llm|MultiVectorDB, Reranker|0.5941|
 |EEVE-Korean-10.8B(ChatOllama)|X|PDFMinerLoader|Naive Rag|0.2759|
