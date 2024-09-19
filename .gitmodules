@@ -1,0 +1,3 @@
+[submodule "rag_pymupdf4llm"]
+	path = rag_pymupdf4llm
+	url = https://github.com/BaeJihyun97/rag_pymupdf4llm.git
